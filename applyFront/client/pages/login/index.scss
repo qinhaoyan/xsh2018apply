@@ -1,0 +1,74 @@
+@import '../../scss/base.scss';
+.login {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: $bgColor;
+	background-size: 50% 100%;
+	min-height: 677px !important;
+	.content {
+		height: 450px;
+		width: 400px;
+		background-color: #fff;
+		border-radius: 5px;
+		box-shadow: 0px 2px 3px 1px $shadowColor;
+		div {
+			width: 300px;
+			height: 55px;
+			margin: 0 auto;
+			margin-top: 35px;
+			text-align: center;
+			position: relative;
+			.icon-yonghu, .icon-mima{
+				position: absolute;
+				top:10px;
+				left: 5px;
+				color: $borderColor;
+				font-size: 30px;
+			}
+			.input-focus {
+				color: $highLightColor;
+			}
+			input {
+				width: 300px;
+				height: 55px;
+				box-sizing: border-box;
+				padding-left: 50px;
+				padding-right: 20px;
+				font-size: 16px;
+  				outline: none;
+  				border-radius: 2px;
+  				border: 1px solid $borderColor;
+  				&:focus {
+  					border: 1px solid $highLightColor;
+  				}
+			}
+		}
+		.title {
+			font-size: 24px;
+			height: 30px;
+			color: $textColor;
+			margin-bottom: 55px;
+		}
+		.button {
+			font-size: 20px; 
+			line-height: 55px;
+			background-color: $buttonColor;
+			color: #fff;
+			cursor: pointer;
+			border-radius: 2px;
+			margin-top: 40px;
+			.icon-icon-loading{
+				color: #fff;
+				font-size: 30px;
+				animation: loading 2s linear infinite;
+			}
+		}
+	}
+	.copy {
+		margin-top: 100px;
+		color: #fff;
+	}
+}

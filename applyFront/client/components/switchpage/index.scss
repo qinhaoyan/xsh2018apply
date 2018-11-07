@@ -1,0 +1,29 @@
+@import '../../scss/base.scss';
+.switchpage {
+	span {
+		color:  $textColor;
+	}
+	div {
+		display: inline-block;
+		height: 30px;
+		width: 30px;
+		border: 1px solid $borderColor;
+		line-height: 30px;
+		text-align: center;
+		margin-left: 10px;
+		cursor: pointer;
+		color: $textColor;
+		border-radius: 2px;
+		&:hover{
+			background-color: #a2b7ff;
+			color: #fff;
+		}
+	}
+	.curent {
+		background-color:  $buttonColor;
+		color: #fff;
+		&:hover{
+			background-color:  $buttonColor;
+		}
+	}
+}

@@ -1,0 +1,167 @@
+@import '../../scss/base.scss';
+
+.content{
+	overflow: hidden;
+	.no-data {
+		margin: 20px 0;
+		text-align: center;
+	}
+	.table {
+		width: 100%;
+		text-align: center;
+		border: 1px solid $borderColor;
+		border-collapse:collapse;
+		thead {
+			background-color: #f8f9fe;
+		}
+		tbody {
+			tr:hover{
+				background-color: #fcfcff;
+			}
+		}
+		.func{
+			cursor: pointer;
+			position: relative;
+			&:hover{
+				i {
+					color: $safetyColor;
+				}
+			}
+			i {
+				position: absolute;
+				top: 13px;
+				right: 10px;
+				color: $textColor;
+			}
+		}
+		.showAdjust {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			background-color: rgba(0,0,0,0.5);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.content {
+				height: 200px;
+				width: 550px;
+				background-color: #fff;
+				border-radius: 5px;
+				position: relative;
+				padding: 20px;
+				box-sizing: border-box;
+				.close {
+					position: absolute;
+					top:10px;
+					right: 10px;
+					cursor: pointer;
+				}
+				.BU {
+					overflow-y: hidden;
+					width: 473px;
+					margin: 30px auto;
+					div {
+						float: left;
+						height: 30px;
+						padding: 0 20px;
+						margin: 10px;
+						line-height: 30px;
+						border-radius: 4px;	
+					}
+					.can-choose {
+						border: 1px solid #DCE0E8;
+						color: #7B84A2;
+						cursor: pointer;
+						&:hover {
+							border-color: #E79A33;
+							color: #E79A33;
+						}
+					}
+					.choose {
+						border-color: #E79A33;
+						color: #E79A33;
+					}
+					.cannot-choose {
+						color: #fff;
+						border: 1px solid #DCE0E8;
+						background-color: $borderColor;
+					}
+				}
+			}
+		}
+		td {
+			height: 40px;
+			border: 1px solid $borderColor;
+			padding: 0 5px;
+			a {
+				color: #000;
+				&:hover {
+					color: $highLightColor;
+				}
+			}
+			.checkbox {
+				height: 15px;
+				width: 15px;
+				border: 1px solid $borderColor;
+				border-radius: 2px;
+				margin: 0 auto;
+				cursor: pointer;
+				position: relative;
+				i {
+					color: $buttonColor;
+					font-size: 17px;
+					position: absolute;
+					top: -2px;
+					left: -1px;
+					transition: all .3s;
+				}
+			}
+			.isAdjust-button {
+				width: 50px;
+				height: 26px;
+				background-color: $buttonColor;
+				color: #fff;
+				text-align: center;
+				margin: 0 auto;
+				border-radius: 2px;
+				cursor: pointer;
+				line-height: 26px;
+				font-size: 14px;
+			}
+			.noAdjust{
+				background-color: $borderColor;
+				cursor: default;
+				color: #fff;
+			}
+			.pass-button {
+				height: 26px;
+				line-height: 26px;
+				border-radius: 13px;
+				color: #fff;
+				margin: 0 auto;
+				font-size: 14px;
+				width: 60px;
+			}
+			.pass-button4 {
+				background-color: $textColor;
+			}
+			.pass-button3 {
+				background-color: $borderColor;
+			}
+			.pass-button0 {
+				background-color: $errColor;
+			}
+			.pass-button1 {
+				background-color: $textColor;
+				cursor: pointer;
+			}
+			.pass-button2 {
+				background-color: $safetyColor;
+			}
+
+		}
+	}
+	
+}

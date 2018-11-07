@@ -1,0 +1,31 @@
+@import '../../scss/base.scss';
+
+.finish {
+	div {
+		float: left;
+		font-size: 16px;
+		text-align: center;
+		line-height: 40px;
+		margin-right: 20px;
+		border-radius: 2px;
+	}
+	.nofinish{
+		
+		height: 40px;
+		width: 120px;
+		border: 1px solid $borderColor;
+		color: $textColor;
+		cursor: pointer;
+		&:hover {
+			border-color: $highLightColor;
+			color: $highLightColor;
+		}
+	}
+	.finished {
+		height: 42px;
+		width: 122px;
+		background-color: $safetyColor;
+		color: #fff;
+		border: none;
+	}
+}

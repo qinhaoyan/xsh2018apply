@@ -1,0 +1,31 @@
+@import '../../scss/base.scss';
+.search {
+	float: left;
+	position: relative;
+	width: 300px;
+	font-size: 16px;
+	input {
+		height: 40px;
+		width: 300px;
+		border-radius: 20px;
+		border: 1px solid $borderColor;
+		outline:none;
+		padding: 0 20px; 
+		padding-right: 40px;
+		box-sizing: border-box;
+		&:focus {
+			border-color: $highLightColor;
+		}
+	}
+	.button {
+		position: absolute;
+		color: $borderColor;
+		cursor: pointer;
+		font-size: 24px;
+		top: 4px;
+		right: 14px;
+		.input-focus {
+			color: $highLightColor;
+		}
+	}
+}

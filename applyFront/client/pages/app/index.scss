@@ -1,0 +1,39 @@
+@import '../../scss/base.scss';
+.nav {
+	height: 60px;
+	width: 100%;
+	background-color: $bgColor;
+	color: #fff;
+	line-height: 60px;
+
+	.content {
+		width: 80%;
+		margin: 0 auto;
+		font-size: 20px;
+		line-height: 60px;
+		.logo {
+			float: left;
+			margin-right: 40px;
+		}
+		a {
+			color: #fff;
+			font-size: 18px;
+			padding: 0 20px;
+			display: inline-block;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			&:hover {
+				border-bottom: 1px solid #fff;
+			}
+		}
+	}
+}
+.footer {
+	height: 60px;
+	width: 100%;
+	background-color: $bgColor;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+}

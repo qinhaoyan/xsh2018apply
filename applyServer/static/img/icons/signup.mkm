@@ -1,0 +1,18 @@
+<MKM version="2.0" imageFileUrl="file:///G:/xsh/sign/sign/public/img/icons/signup.png">
+  <Marks>
+    <LengthMark direction="12" color="16711680" length="183" x="99" y="70"/>
+    <LengthMark direction="3" color="16711680" length="142" x="236" y="81"/>
+    <LengthMark direction="3" color="16711680" length="1" x="305" y="168"/>
+    <LengthMark direction="12" color="16711680" length="149" x="149" y="230"/>
+    <LengthMark direction="3" color="16711680" length="30" x="317" y="234"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="1935600" offsetX="25" offsetY="10" x="216" y="385"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="4106220" offsetX="25" offsetY="10" x="191" y="272"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="14981864" offsetX="25" offsetY="10" x="241" y="279"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="8960232" offsetX="25" offsetY="10" x="266" y="553"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="8960232" offsetX="25" offsetY="10" x="251" y="573"/>
+    <LengthMark direction="12" color="16711680" length="158" x="110" y="678"/>
+    <LengthMark direction="3" color="16711680" length="23" x="292" y="672"/>
+    <LengthMark direction="12" color="16711680" length="20" x="270" y="686"/>
+    <LengthMark direction="3" color="16711680" length="111" x="304" y="679"/>
+  </Marks>
+</MKM>

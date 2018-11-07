@@ -1,0 +1,59 @@
+@import '../../scss/base.scss';
+.pass {
+	float: left;
+	position: relative;
+	&:hover {
+		i {
+			transform: rotate(180deg);
+		}
+		.drop div{
+			opacity: 1;
+			height: 40px;
+		}
+	}
+	.button {
+		height: 40px;
+		width: 120px;
+		border: 1px solid $borderColor;
+		font-size: 16px;
+		text-align: center;
+		line-height: 40px;
+		color: $textColor;
+		cursor: pointer;
+		border-radius: 2px;
+		i {
+			display: inline-block;
+			transition: all .3s;
+			margin-left: 2px;
+		}
+	}
+	.drop {
+		width: 122px;
+		text-align: center;
+		color: $textColor;
+		position: absolute;
+		z-index: 10;
+		div {
+			overflow: hidden;
+			transition: all .3s;
+			height: 0px;
+			opacity: 0;
+			line-height: 40px;
+			border: 1px solid $borderColor;
+			cursor: pointer;
+			background-color: #fff;
+			&:hover{
+				background-color: #f8f9fe;
+			}
+		}
+		.pass1 {
+			border-top: none;
+		}
+		.pass2 {
+			border-top: none;
+		}
+		.pass3 {
+			border-top: none;
+		}
+	}
+}

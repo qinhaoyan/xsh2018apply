@@ -1,0 +1,49 @@
+@import '../../scss/base.scss';
+.sort-message {
+	margin-top: 30px;
+	.title{
+		font-weight: 600;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.template {
+		background-color: #fbffc6;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	.input {
+		input {
+			height: 20px;
+			padding: 5px 10px;
+			outline: none;
+			margin-right: 40px;
+		}
+		
+	}
+	.func {
+		display: flex;
+		border-bottom: 1px solid #222;
+		padding-bottom: 30px;
+		margin-bottom: 30px; 
+		margin-top: 20px;
+		.word{
+			line-height: 40px;
+		}
+		.button {
+			padding: 0 20px;
+			height: 40px;
+			background-color: $buttonColor;
+			color: #fff;
+			line-height: 40px;
+			text-align: center;
+			border-radius: 4px;
+			cursor: pointer;
+			margin-right: 40px;
+			.icon-icon-loading{
+				color: #fff;
+				font-size: 30px;
+				animation: loading 2s linear infinite;
+			}
+		}
+	}
+}
