@@ -11,7 +11,7 @@ import requests
 import pdb
 
 sms_type = 0
-ssender = SmsSingleSender("1400145946", "a346cb074a15dd26680c61b6ba21894d")
+ssender = SmsSingleSender("", "")
 sms_sign = "重邮学生会"
 
 def translateBU(asp):
